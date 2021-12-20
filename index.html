@@ -9,10 +9,10 @@
   </head>
   <body>
     <div class="login">
-      <div class="login__form">
+      <div class="login__container">
         <img class="login__logo" src="./img/logo.png" />
-        <span class="login__title">Fazer Login</span>
-        <div class="login__container">
+        <span class="login__title">Fazer login</span>
+        <div class="login__form">
           <input
             type="text"
             class="login__input"
@@ -20,17 +20,31 @@
           />
           <input type="password" class="login__input" placeholder="senha" />
           <div class="login__auth">
-            <div class="login__item login__item--fb" href="http://"></div>
-            <div class="login__item login__item--go" href="http://"></div>
-            <div class="login__item login__item--ap" href="http://"></div>
+            <div class="login__item login__item--fb">
+              <ion-icon name="logo-facebook" style="color: #ffffff"></ion-icon>
+            </div>
+            <div class="login__item login__item--go">
+              <ion-icon name="logo-google" style="color: #000000"></ion-icon>
+            </div>
+            <div class="login__item login__item--ap">
+              <ion-icon name="logo-apple" style="color: #ffffff"></ion-icon>
+            </div>
           </div>
           <div class="login__check">
             <input type="checkbox" name="login__keep" id="login__keep" />
-            <label for="login__keep">Manter login</label>
+            <label for="login__keep" class="login__keep">Manter login</label>
           </div>
         </div>
       </div>
       <div class="login__bg"></div>
     </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
