@@ -1,0 +1,19 @@
+{
+  "name": "lol-login",
+  "version": "1.0.0",
+  "description": "Clone da tela de login do game <a href=\"https://www.leagueoflegends.com/pt-br/\"> League of Legends</a>, feito com objetivo de treinar habilidades em css e também o padrão <a href=\"http://getbem.com/introduction/\">BEM</a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanOliveiraJF/github-css-BEM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanOliveiraJF/github-css-BEM/issues"
+  },
+  "homepage": "https://github.com/NathanOliveiraJF/github-css-BEM#readme"
+}
